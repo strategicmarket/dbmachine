@@ -1,0 +1,130 @@
+
+
+Did you know that the idea behind conversation solutions, most commonly known as chatbots or conversational agents, came about in the 1950s? And that the first bot in history, which was named ELIZA, was created in 1966? It is crazy to think that such a solution existed a long time ago despite it only becoming popular recently.
+
+Nowadays, conversation solutions are employed almost everywhere, from medical virtual agents that provide diagnosis and medical advice to ones deployed at ATMs to aid the visually impaired. As human beings, we are intrigued by the fact that we get to experience a more humanized interaction through such solutions. However, you have probably noticed that many conversational solutions fail to consistently provide such an interaction. A good conversational solution is one that drives user engagement in a way that suits the use case at hand, while making it look clever and allowing forgiveness in situations where answers are lacking.
+
+METHODS TO BUILD EFFECTIVE SOLUTIONS
+
+Positioning
+Positioning involves determining how the solution relates to users and how the solution should behave during user interactions. Positioning includes:
+
+Determining the solution’s purpose
+Identifying the solution’s viewpoint
+Specifying how proactive the solution should be
+
+----------
+The solution’s purpose
+You need to clearly define what is considered as the virtual agent’s job description. You need to ask yourself “Why do I need such a solution?” Ultimately, the solution aims to create a more human-like and engaging experience that facilitates understanding the users’ needs. However, you need to comprehend why having such a solution is crucial to the business. Is it to reduce costs, attract a new target audience, or perhaps increase customer loyalty? Having a good grasp of the needs of both the business creating the solution and the users is important here.
+
+-----
+The solution’s viewpoint
+Ask yourself “Where does the solution sit between you as a business and the users?” Here, you need to understand whose interest the solution serves. In other words, to achieve the end goal, is the solution supposed to be presented as a company employee, a partially or completely independent entity of the business, or an advocate or a friend? This depends on the use case at hand. For example, if the aim is to promote an event, generate revenue through selling a product, or persuade or enforce the reduced usage of call centers, then the solution is likely to speak on the behalf of your company. Otherwise, it can be represented as one of the other options.
+
+----
+
+The solution’s proactivity
+Determine the degree to which the solution proactively engages with the user. More proactivity, or leaning forward, is seen as the solution guides the user through a process or actively sells a product. Reactivity, or leaning back, is visible as the solution addresses a question, because having proactivity here portrays the agent as being quite annoying. It also depends on the viewpoint of the solution. In the case of the solution taking on the role of an independent entity, the agent should not be highly proactive because that leads to the user mistrusting the conversational solution. Always remember that it is important to have a consistent solution that the user can trust.
+
+-----
+
+Tone and personality
+This is the voice your solution speaks in: in other words, how formal/informal or friendly/unfriendly you want it to sound. It should be consistent with your business brand, target audience, the positioning of the solution, and the tone of any external resources utilized. In cases where an external resource like a website is used, you might need to adjust your tone to show that a portion of the answer provided by the chatbot is from another source, which includes saying something like “This is what I could find for you.” You will probably be working copywriters who know the voice of your brand. You should try to follow these four rules:
+
+Don’t answer a question using Yes/No.
+Always reflect the question in your answer so that the user sees what the solution understood from his/her question.
+Try to be as helpful as possible in guiding the user toward the right direction.
+Don’t make responses too long and try to be straight to the point.
+
+
+--------
+An utterance or example is an input that a user provides when prompted, including questions and statements.
+An intent is the purpose expressed by user input, which usually acts as a label for a group of utterances.
+An entity is usually a classification of objects aimed to help alert the response to an intent.
+Context is information gathered from an external source to customize responses.
+A response is what the Conversation service returns to the user’s utterances based on the detected intent, and entity can be in the form of text or an action like displaying a map.
+A dialog defines the conversational flow, which is simply a logical flow that determines responses based on a met condition.
+
+----
+
+Requirement validation
+In simple words, this is where you ensure that the designed solution is feasible and will do its job properly. Here, you define the target audience and the end-to-end user interaction with the conversation solution in the form of user scenarios. This is later broken down into detailed use cases, which are simply logical steps supporting the user scenario. It also includes determining the question collection methodology.
+
+User interface (UI) design
+As the name suggests, this is the process of designing and creating the interface through which the solution interacts with users. It is an important activity because it takes a huge part in determining the user’s experience. Some good practices to follow when designing the UI include:
+
+Have a place holder, which should be a full sentence.
+Provide examples of frequently asked questions to help guide users.
+Try to encourage users to enter full statements if they use terms.
+Try to use type-ahead to display possible questions.
+Track all statements provided by users, which is important for the question collection activity, improving the solution and providing a customized experience.
+Question collection
+This is the process of collecting user representative questions for the purpose of training the machine learning models of the tool used to create the solution. In the Conversation service, the utterances  are used in the next activity to train the Natural Language Classifier (NLC) to identify the intent behind someone’s question and help the entity detector do rule-based matching to refine the response. For instance, if “Where can I find the gym?” is the question, the Conversation service understands that the user’s intent is to ask about the location of the entity the gym. The entity could have been something else like the restaurant, to which the Conversation service would have provided a different response, despite the intent being the same.
+
+When collecting utterances:
+
+Define all potential user personas and the user/users who will be part of each of those personas.
+Ensure that the scope for the question collection is well defined.
+Try to create an environment that is close to that used during production (for example, are users supposed to verbally ask questions, or type them through a web application).
+Make sure that people understand that they are not to expect any answers at this stage.
+Account for different use cases, including seasonal changes.
+Avoid manufacturing the gathered questions or altering them in any way (for example, keep those with grammatical errors and spelling mistakes untouched).
+It is recommended to gather around 2000 questions in total with a minimum of 5 – 10 questions per unique intent. Of course, this number will vary based on your business use case. The activity of collecting questions continuously happens as you try to improve the accuracy of your system so that it provides a proper answer to future questions.
+
+--------
+Create ground truth
+Next comes managing these utterances, where you put them in one place, such as an Excel spreadsheet, and map them to intents, perhaps using pivot tables. Subject Matter Experts (SMEs) usually get involved here to not only determine the correct intent for each utterance and then the entities, but also the appropriate response to each of the collected questions, making sure it fits your business model and reflects its values. The set of answered intent grouping is known as ground truth. Again, consistency is key here as it is what determines the confidence of your solution in answering questions. When you do the grouping, it is based on the intent, not the answer. You can have one answer for multiple intents.
+
+When it comes to the responses, you need to account for:
+
+Ambiguous and open-ended questions
+Overly detailed questions
+Missing key references (where questions like “What is the weather?” does not have a defined location)
+Chit-chat, off-topic, and out-of-scope questions
+
+----
+
+Configure dialog component
+At this stage, you know what you want from the conversation solution and how you want to deliver the solution. It is just a matter of configuring the components on the Conversation service platform or the tooling of your choice. In the Conversation service, it includes configuring the intents, entities, and dialog flow. Remember to make sure that your dialog design reflects the positioning, tone, and personality of your solution and all of the points I previously mentioned.
+
+Iterative teach and calibrate
+Here, you iteratively improve the user experience and the solution’s ability to identify the intent behind the question and appropriately respond. You might find out from newly collected utterances during production that are matched to intents and entities that they are not correctly paired. Thus, this leads to changes to the intent, entity, and/or the dialog flow itself. This is basically where you are refining the ground truth.
+
+----
+
+General tips
+Use active voice.
+Use contractions because they are seen as more natural (such as I’m instead of I am).
+Keep your responses short to increase readability.
+Use the right formatting to increase readability during the UI design.
+Ensure that the tone and technical level of the response are suitable for your audience.
+Ask others to check the sample answers and provide feedback (different people see things differently).
+Focus on answering the questions that will increase the solution’s accuracy, rather than singletons.
+Test the system through your user (the intended audience).
+Keep a record of your changes and make small alterations at a time so that you can identify a good change from a bad one and can successfully roll back if needed.
+Keep copies of your ground truth to also help with rolling back when necessary.
+Review the chat log to see if the user is using an entity that you might have missed in the way you have intended.
+Off-topic intents can have a large number of utterances in comparison to the rest, so split them into a subcategory to avoid creating bias for your solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

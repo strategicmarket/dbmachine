@@ -1,0 +1,47 @@
+
+
+THURSDAY TEAM CALL TOPICS
+
+
+
+Reinforcing Strategy For Business
+
+> Used the market to build the platform
+
+> Use slack ui messaging to interact with an agent to sign up for services
+ immediately see how it feels to complete transactions and questions and interactions via the process
+
+> Use agent gallery is primed to demonstrate various scenarious  
+web > microservice > using some mock data like a store, payments, email
+
+> help clients build out their own slack channel communities -- sales teams, agents, integrations via apis
+
+> using open source technques to run communities and cu/cd. Helping clients adopt advanced engineering methods for a modern software age
+
+> help clients create and manage targeted developer communities skilled in microservices and api development
+
+> specialized integrations -- ie instead of reading member data from mongodb -- read member data from salesforce (every action is ab api)
+
+> microapps - consuming web content to depper engagement
+- static web site generation (marketing the private network as well as supporting microapps)
+- forms
+- marketing content
+- gifs
+- video, audio
+
+> internship programs in conjuction with Trilogy and University network
+- intern leaderboards, competitions, special recognition
+- mentorship, effectively completed 6 months of close in work, graded, ready for dev
+> work is curated, supervised
+> collaboration, code sharing, extended education, commercial platform work and testing
+- data science and analytics?
+- neo4j -- graph database
+
+> education and consulting
+- open source communities
+- engineering methods
+- api economy and integrations
+- microservices
+- agent and ai strategies
+- machine learning and deep learning
+- data analytics

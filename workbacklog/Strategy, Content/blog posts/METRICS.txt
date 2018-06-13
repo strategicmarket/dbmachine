@@ -1,0 +1,25 @@
+
+
+BOT METRICS
+
+---
+
+also look at datadog
+---
+
+engagement
+From our analysis of the over 6,000 bots developed using SnatchBot’s technology, only 11.8% abandoned their chat. This is a very strong metric for an emerging technology.
+
+On average, it takes 10 hours for a company to respond to a message while a chatbot responds within seconds. On our platform, the average time spent by users in the chat is one minute and 32 seconds while the total number of users reached amounts to around 30 million.
+
+We can also learn that it is not just customer service that benefits from chatbot use. Four other sectors are using our chatbots more heavily: education, IT, eCommerce and Financial Services. These four sectors in total account for more than 50% of chatbot use on the SnatchBot platform.
+
+Chatbots can be very simple and intuitive to use: having a total number of 30M users reached while having an 80% success rate -- calculated by users saying “thank you” at the end of their session -- is very encouraging and compelling for us.
+
+This is further exemplified by the fact that we have a very low rate of customer requests for chatbot builds compared to the number of chatbots created on our platform. In other words, users are finding it easy to engage with our platform without our assistance.
+
+We also found that, given enough people on the team, there is a potential 25% increase in inquiries from non-customers. This is again an assumption given by our customer that the number of inquiries from competitors’ customers will grow as the customer team become more and more available. This number is important because inquiries from non-customers are a driver of new customer acquisition in many businesses.
+
+We also found that adding a chatbot to the customer service team’s solutions portfolio will result in annual labour and recruitment costs savings of $330,000 -- because 6 people at an annual average loaded cost per employee of $50K would not need to be replaced -- and a 25% increase in new customer acquisition.
+
+If inquiries from non-customers are not expected to grow, then the annual cost saving will amount to $880,000 because of recruitment savings for 16 people.

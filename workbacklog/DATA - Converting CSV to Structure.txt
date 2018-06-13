@@ -1,0 +1,10 @@
+
+
+
+DATA 
+
+publish csv to structured
+
+https://github.com/simonw/datasette
+
+https://datasette-onrlszntsq.now.sh/

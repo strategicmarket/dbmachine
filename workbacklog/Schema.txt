@@ -1,0 +1,11 @@
+
+
+
+
+https://medium.freecodecamp.org/how-to-write-powerful-schemas-in-javascript-490da6233d37
+
+
+https://www.npmjs.com/package/schm
+
+
+https://www.npmjs.com/package/schm-express

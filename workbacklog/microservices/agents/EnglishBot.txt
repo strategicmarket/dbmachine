@@ -1,0 +1,5 @@
+
+
+API for the english language
+
+https://www.wordsapi.com/

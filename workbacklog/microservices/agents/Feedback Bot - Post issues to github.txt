@@ -1,0 +1,10 @@
+
+
+
+feedback bot microservice
+
+
+https://github.com/microfeedback/microfeedback-core
+
+
+In short: an easily-deployable HTTP microservice for collecting user feedback about your apps.

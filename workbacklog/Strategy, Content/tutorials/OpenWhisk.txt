@@ -1,0 +1,114 @@
+
+OW REFERENCES 
+
+http calls
+
+https://horeaporutiu.github.io/blog/openwhisk-web-actions-and-rest-api-calls/
+
+--------------
+serverless http handlers -- new feature webactions
+https://medium.com/openwhisk/serverless-http-handlers-with-openwhisk-90a986cc7cdd#.r601oupej
+
+---
+https://www.ibm.com/blogs/bluemix/2016/12/node-js-code-openwhisk-actions/
+
+----
+1. Install CLI for IBM Cloud
+
+Bluemix command reference 
+https://console.bluemix.net/docs/cli/reference/bluemix_cli/bx_cli.html#bluemix_cli
+
+------------
+
+2. Install IBM Cloud Functions Plugin
+https://console.bluemix.net/openwhisk/learn/cli
+using the command
+bx plugin install Cloud-Functions -r Bluemix
+(success on feb 9 2018)
+------------
+
+3 Login into the IBM Cloud
+bx login -a api.ng.bluemix.net -o patrick.howard@hotmail.com -s dev
+
+NOTE going forward
+> bx login
+
+like
+
+> cf login
+-------------
+
+4. Conduct a test using echo and bx
+bx wsk action invoke /whisk.system/utils/echo -p message hello --result
+
+success returns json object {"message": "hello}
+
+--------------
+
+5. THIS Tutorial 
+
+https://github.com/IBM/ibm-cloud-functions-action-trigger-rule/blob/master/docs/OPENWHISK.md
+
+NOTE -- DEPLOY JSON FILE
+https://github.com/IBM/ibm-cloud-functions-serverless-apis/blob/master/.bluemix/deploy.json
+
+------------------
+Another Tutorial
+https://github.com/IBM/ibm-cloud-functions-rest-api-trigger
+
+NOTE -- for chaoticservices/catdemo
+---------------
+> create a web action 
+wsk action create create-cat create-cat.js --web true
+
+Using the --web flag with a value of true or yes allows an Action to be accessible via REST interface without the need for credentials. 
+
+A web Action can be invoked by using a URL that is structured as follows: https://{APIHOST}/api/v1/web/{namespace}/{packageName}/{actionName}.{EXT}.
+
+https://console.bluemix.net/docs/openwhisk/openwhisk_webactions.html#openwhisk_webactions
+
+----------------
+invoke the action
+wsk action invoke \
+  --blocking \
+  --param name Tahoma \
+  --param color Tabby \
+  create-cat
+
+----------------
+
+Create HTTP End POINT 
+wsk api create $BASE_PATH $API_PATH $API_VERB $ACTION
+
+ie
+wsk api create -n "Cats API" /v1 /cat post create-cat
+
+then use curl to invoke the api
+$ curl -X POST -H 'Content-type: application/json' -d '{"name": "pat", "color": "blue"}' https://service.us.apiconnect.ibmcloud.com/gws/apigateway/api/626419717631ddc8385088c774354739816ad88f1
+6ebf25c7f6e6c3a2fc12f23/v1/cat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

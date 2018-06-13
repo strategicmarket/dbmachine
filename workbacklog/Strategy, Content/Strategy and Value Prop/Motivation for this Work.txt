@@ -1,0 +1,38 @@
+
+
+MOTIVATION
+
+1. The work from IBM is not finished. Looking to prove that
+
+> software delivery can be scaled with quality
+> can be delivered efficiently
+> work can be organized differently
+> outcomes can be explcitly connected with recognition
+
+2. An outcomes model is a risk sharing model. But also gain sharing. All parties are set up for success. Properly designed -- and managed -- looking to prove how that happens
+> not about purely game-based competition model (topcoder)
+> not about purely freelancer model (odesk and others)
+> not an hourly or salary employment model
+
+a risk sharing results oriented  -- a pure delivery model
+
+
+3 Constructs
+
+> need to provide context for the work -- technically and functionaly
+> need collaboration platform 
+> need engineering tools interlocked with the software model. ci/cd automation counts
+
+4 messaging -
+
+> a class of apps which are highly efficient ...
+> but have to know the person in order to make this work
+> relationship apps, engagement apps, p2p apps, f2f apps, 
+
+5 for developers
+> code for cash
+> credentialed
+> early commercial experience
+> mentoring, coaching
+> references
+> highly selective -- graduate program

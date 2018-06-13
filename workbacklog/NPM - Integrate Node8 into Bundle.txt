@@ -1,0 +1,9 @@
+
+
+NPM integrate nodejs 8 into bundle
+
+Confirmed: ??
+1. npm install Node@8 (saves Node 8 as dependency in package.json)
+2. Your app will run using Node 8 for *everyone* - even Yarn users! ??
+
+No more "Hrmmm, works on my machine. What version do you have installed..

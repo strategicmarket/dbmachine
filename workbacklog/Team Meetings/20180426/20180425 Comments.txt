@@ -1,0 +1,38 @@
+
+
+Excellent work. Delighted to be doing this with each of you
+
+1. novel, experimental - 
+> ESSENTIALLY -  do one thing and do it eceptionally well
+> you calbrate to the work based on your interests and skills
+> permits someone to become expert on 1 component of a system -- it becomes your domain for all refactoring and maintenance going forward?
+> design for dev success -- all environments, tools, test data and architectural decisions packages together -- imagine every web site being delivered like this
+
+also novel with respect to the messaging process. This is about providing customers with the ability to deploy cognitive apps -- quickly and efficiently -- 
+
+both side a journey of discovery -- i am glad you're working with me on this
+
+
+2. f2f meeting probably won't happen until June -- need beta version of webmachine ready before we meet in person
+
+3. your deliverable has to include
+> code - well commented
+> docs -- think of readme file
+> test data 
+
+when someone stands up and navigates the paths of webmachine, it has to work right out of the box
+
+
+3. Test DBs and Production DBs will move to their own server at some point. Should be able to happen with config file change
+
+4. Thinking about using slack as the UI for customers to register for networks, receive analytical insights, and other functions as well
+> but a web ui still needed long term
+> the functions built for the webui can obviously be used for the 'messaging ui' -- future refactoring effort but our code needs to be well componentized and portable
+
+5 static site generation -- update from Daniel
+
+Just note that we may be swapping out our docs site for a new capability publiched by vue -- I will be looking for a content manager to work by the outcome and join our team FYI. 
+
+For example, want to load these workitems to github and begin using what Juan built once refactoring completed
+
+As well as load our dev docs, codix and other items 

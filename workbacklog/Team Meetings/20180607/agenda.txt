@@ -1,0 +1,30 @@
+
+
+> documentation -- deploying to github -- discuss tool used
+-- really hard stuff to do -- but clearly 'run document' is needed or tables with definitions of key variables and configs
+
+> in person meeting logistics and agenda
+
+> building agents 
+---- need interactive gallery
+---- need use cases - script and workflows
+
+> tool chain for continuous integration and deployment
+
+> next refactoring action -- separating out the database
+
+> lets go after alpha customers
+-- big issue is having 
+* a 'dashboard' to monitor outcomes and 
+* a console to change up the agent interactions? Right now it is very custom -- tied to machine learning process of watson and the config of agents in a microservice
+
+We will solve this as we go along ....
+
+ie - prepackaged recipes for common interactions -- deploy to watson etc
+- just like prepackaged microservices that can be deployed or customized --- should a microservice be designed to consume a spreadsheet of interactions -- or can we set up vscode as the platform for someone to use as their command console?
+
+we bring the user into the devops process with us -- just like the developer on github?
+
+or give the user their own github repo -- with all their interactions -- we retrieve real time from their by a microservice?
+
+> next issue -- configure using slack /slash commands

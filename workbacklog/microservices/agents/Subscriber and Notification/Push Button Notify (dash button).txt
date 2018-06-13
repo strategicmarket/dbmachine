@@ -1,0 +1,15 @@
+
+
+
+push button notification
+
+http://thisdavej.com/how-to-watch-for-files-changes-in-node-js/
+
+
+-----
+
+can us the node file system to watch or
+
+https://www.npmjs.com/package/chokidar
+
+https://www.npmjs.com/package/node-watch

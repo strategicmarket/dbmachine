@@ -1,0 +1,38 @@
+
+
+
+https://www.twilio.com/learn/call-and-text-marketing/what-is-rcs-messaging
+
+Every day, billions of people and thousands of businesses connect via text messaging, a modern way to communicate that's actually been around for over 30 years. RCS (Rich Communications Services) is a next-generation SMS protocol being championed by the GSMA, Google & Android, Samsung, and many carriers and mobile phone manufacturers. And for businesses, the recently released RCS Business Messaging opens even more doors for customer engagement, marketing, and sales.
+
+SMS has become an essential part of our lives. As of 2007, users were sending more text messages than phone calls, and now, with an SMS function available in all mobile devices, usage among all age groups has skyrocketed. Businesses, too, increasingly rely on SMS to support customers, ask for feedback, and reward loyalty with special offers. All told, there are over 15 million texts sent every minute. That’s 22 billion SMS messages a day!
+
+Because texting is so simple, and the messages are short by design, consumers love using SMS to engage with businesses. They don't have to sit on hold, take time out of their day to visit a business in person, or wait long for an email to be responded to. They can fire off a quick message in between everything else they're doing, and be assured to get a succinct reply in no time. Businesses also love the channel; in addition to the consumer preference for texting, there’s also its ubiquity, global reach, immediacy, and unrivalled open rates. Sure, email open rates are great at 20-30%. But according to a Dynmark study, email can’t compete with the 98% open rate that SMS enjoys! In fact, 90% of texts are read within 3 seconds, and nearly a third (29%) are responded to!
+
+SMS isn’t alone in its popularity. Apps like WhatsApp and Facebook Messenger, each with over 1.2 billion users, compete in a crowded market with iMessage, WeChat, Slack, Skype, Viber, Android Messages, and many others. These free and low-cost messenger apps provide an experience that builds on SMS, offering group chat, image sharing, video, audio, and a seemingly endless range of emoticons. Once you’ve used one of these feature-rich apps, it’s easy to see why they’ve taken off.
+
+The popularity of chat apps is perfect for businesses looking to engage with consumers in increasingly ’sticky’ ways. But the sheer number of different apps has fragmented the landscape. To support users across such a crowded messaging ecosystem, developers have to wrestle with variations in APIs, capabilities, and tooling. Keeping up has proven to be difficult, time-consuming, and — most important — costly.
+
+Enter RCS, an upgrade to SMS through a universal standard known as Rich Communications Services. RCS, a platform that’s significantly more interactive and capable than today’s SMS, has been supported and promoted by the GSMA since 2008.
+
+In short, RCS makes text messaging as engaging as WeChat, WhatsApp, and other messaging apps while providing the reach of SMS & MMS. Rich features like high-res photo and video sharing, mapping directions, location sharing, typing indicators, the ability to add and remove members to group chats, and so much more, are delivered to a device’s default messaging app irrespective of the network the user is on.
+
+So whether it’s person-to-person (P2P) messaging between friends or application-to-person (A2P) messaging used for business purposes, RCS is changing the way everyone communicates.
+
+----
+Google, through its Early Access Program, is helping brands and developers adopt RCS business messaging more easily. Currently, RCS is supported by over 50 carrier networks and is serving nearly 160 million users globally on handsets developed by over 20 international manufacturers. The GSMA estimates that there will be 350 million RCS users by the end of 2018, and a billion in 2019.
+
+--------
+
+Here at Twilio, we're already starting to see some innovative and engaging ways that business marketers are thinking about using RCS. And since Twilio RCS is just one part of an omni-channel API, we’re helping these brands “future proof” their development efforts by making it easy to expand reach to the channels customers are using most. Today it might be Facebook Messenger, tomorrow it might be Slack, or something else. And like with any new technology, we’re excited about enhancements to the platform that will continue the momentum.
+
+
+
+
+
+
+
+
+
+
+

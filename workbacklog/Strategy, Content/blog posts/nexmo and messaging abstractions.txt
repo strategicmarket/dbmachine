@@ -1,0 +1,18 @@
+
+
+nexmo - and messaging abstracts
+
+the number of social chat apps has only increased and each one that emerges brings its own set of complex requirements. Whereas the complexity with SMS message delivery lied in the hundreds of different telecommunication networks that Nexmo abstracts, with chat apps, the different communication rules and dramatic variances in regional user bases are the source of complexity.
+
+ Given that businesses care primarily about the outcome of the communication, the medium of the communication is of less concern. This realization led us to think about a new approach: abstracting channels from messaging.
+
+PSTN - public switched telephone network
+
+businesses need a messaging solution that accommodates PSTN and IP by default and also enables rapid experimentation with new channels.
+
+proliferating messaging channels
+
+viber is japan
+line is operated by japanese sub of korean korean firm Naver Corp -- also popular in taiwan, thailand, turkmenistan
+wechat is china
+watsapp was europe and bought by fb

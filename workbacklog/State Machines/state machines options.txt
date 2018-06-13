@@ -1,0 +1,29 @@
+
+
+
+STATE MACHINE OPTIONS
+
+
+
+READ THIS
+article
+
+http://raganwald.com/2018/02/23/forde.html
+
+------
+nice use of constructor and async await
+
+https://www.npmjs.com/package/fsm-async
+
+-----------
+
+stateful object plus demo
+https://www.npmjs.com/package/statefulobject
+
+
+-----
+
+nanostate object
+https://www.npmjs.com/package/nanostate
+
+------

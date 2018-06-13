@@ -1,0 +1,18 @@
+
+
+BANKBOT - USING DISCOVERY FOR FAQ
+
+FAQ Docs are docx files -- very cool
+
+
+The FAQ documents are added to the Watson Discovery collection.
+The user interacts with a chatbot via the app UI.
+User input is processed with Tone Analyzer to detect anger. An anger score is added to the context.
+User input is processed with Natural Language Understanding. The context is enriched with detected entities and keywords (e.g., a location).
+The input and enriched context is sent to Watson Conversation, which recognizes intent, entities, and dialog paths. It responds with a reply and/or action.
+Optionally, a requested action is performed by the app. This may include looking up additional information from bank services to append to the reply or using Discovery to reply with an answer from the FAQ documents.
+
+
+https://github.com/IBM/watson-banking-chatbot
+
+https://developer.ibm.com/code/patterns/create-cognitive-banking-chatbot/

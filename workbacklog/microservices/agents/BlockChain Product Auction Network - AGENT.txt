@@ -1,0 +1,8 @@
+
+
+Execute smart contracts
+
+https://developer.ibm.com/code/patterns/create-and-execute-blockchain-smart-contracts/
+
+code
+https://github.com/IBM/BlockchainSmartContractTrading-CompositeJourney?cm_sp=Developer-_-create-and-execute-blockchain-smart-contracts-_-Get-the-Code

@@ -1,0 +1,8 @@
+
+
+Watson Workspace Bots
+
+https://www.ibm.com/developerworks/collaboration/library/wws-chatbots/index.html
+
+
+github.com/van-ibm/watsonworkspace-bot/blob/master/README.md

@@ -1,0 +1,15 @@
+
+
+ODM TUTORIAL
+
+Creating reference id between models --
+
+but also using the schema to create an object which permist me to reference all properties immediately based on the schema definition
+
+https://alexanderzeitler.com/articles/mongoose-referencing-schema-in-properties-and-arrays/
+
+
+querying subdocuments
+https://coderwall.com/p/6v5rcw/querying-sub-documents-and-sub-sub-documents-in-mongoose
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose

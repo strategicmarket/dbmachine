@@ -1,0 +1,29 @@
+
+
+conversational interface
+
+> remembers visitors from prior visits
+> no ui clutter
+> bot mediates a conversation -- jumps in and makes an offer
+
+But some visual is important
+
+intuitive
+accessable
+productive
+
+NLP Engines
+
+watson
+google cloud natural language api
+microsoft Luis
+amazon Lex
+Baidu UNIT
+
+------------
+
+api.ai 
+https://www.npmjs.com/package/apiai
+
+
+

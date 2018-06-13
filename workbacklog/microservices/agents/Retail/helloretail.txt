@@ -1,0 +1,16 @@
+
+
+
+https://read.acloud.guru/serverless-event-sourcing-at-nordstrom-ea69bd8fb7cc
+
+https://github.com/Nordstrom/hello-retail/
+
+The team at Nordstrom built Hello Retail with one scenario in mind: a merchant adding a product to their store.
+
+When a product is added to the store, two things need to occur. A photographer needs to take a photo of the product. After this, customers should see the new product with the new photo in the product catalog.
+
+The Hello Retail project solves this problem with events. The three major events in this scenario are:
+
+Register Photographer
+New Product
+New Photo

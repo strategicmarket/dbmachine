@@ -1,0 +1,4 @@
+
+
+
+https://developer.ibm.com/code/patterns/create-an-alexa-skill-with-serverless-and-a-conversation/

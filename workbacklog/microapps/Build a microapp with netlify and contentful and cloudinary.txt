@@ -1,0 +1,23 @@
+
+
+
+
+
+
+Our content infrastructure enables teams to power content in any digital product: website, app, or device.
+-------
+
+https://www.contentful.com/
+
+
+I just created a React project in codesandboxapp?, pushed it to GitHub, made it editable with contentful? and deployed it to @Netlify?
+
+Took me 10minutes without a single file on my computer.
+
+https://www.contentful.com/r/knowledgebase/cms-as-code/
+
+In the Iron Age, software development was built around the idea of boxed software, with new versions released once a year, or even less. Expensive and time-consuming release processes were common, with build everything, then test everything and then release everything being the way it was done.
+
+In the Cloud Age, agile teams release frequently, often several times a week, so expensive and time-consuming release processes can’t be used without grinding deployments to a halt. For this reason, many agile teams have adopted continuous delivery.
+
+Teams that employ continuous delivery have a "deployment pipeline”, a set of validations through which new version of software must pass on its way to production. The pipeline has different stages, each of which has its own environment for running the software.

@@ -1,0 +1,11 @@
+
+
+WEB COMPONENTS - DYNAMICALLY SRVED
+
+https://developers.google.com/web/fundamentals/web-components/customelements
+
+
+https://micro-frontends.org/
+
+
+https://github.com/neuland/micro-frontends

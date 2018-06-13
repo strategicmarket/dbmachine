@@ -1,0 +1,7 @@
+
+
+In this pattern, we show you how to use Watson Natural Language Understanding (NLU) service and IBM Watson Studio to augment the text classification results when there is no historical data available. A configuration JSON document prepared by a domain expert is taken as input by IBM Watson Studio. The configuration JSON document can be modified to obtain better results and insights into the text content.
+
+using python. jupyter notebooks in watson studio to create a custom training dataset for NLU
+
+https://developer.ibm.com/code/patterns/extend-watson-text-classification/

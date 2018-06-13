@@ -1,0 +1,13 @@
+
+
+VUE -- PROJECT
+
+serverless cms
+
+https://css-tricks.com/building-serverless-cms-powered-vue-js/
+
+
+serverless checkout project -- using stripe and serverless
+
+https://css-tricks.com/creating-vue-js-serverless-checkout-part-one/
+

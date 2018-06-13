@@ -1,0 +1,18 @@
+
+
+SERVERLESS TECHNOLOGIES
+
+
+----------
+Terraform
+
+ predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
+
+kong
+After installing and starting Kong, use the Admin API on port 8001 to add a new API. Kong will route every incoming request with the specified public DNS to the associated target URL
+
+server;ess
+https://serverless.com/
+
+
+-----------

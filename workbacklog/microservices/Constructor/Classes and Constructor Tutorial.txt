@@ -1,0 +1,74 @@
+
+
+EXCELLENT TUTORIAL ON CLASES AND SUBCLASSES
+--------------------
+https://scotch.io/tutorials/better-javascript-with-es6-pt-ii-a-deep-dive-into-classes
+
+-------------------
+
+JavaScript Prototypes
+
+All JavaScript objects inherit the properties and methods from their prototype.
+
+Objects created using an object literal, or with new Object(), inherit from a prototype called Object.prototype.
+
+Objects created with new Date() inherit the Date.prototype.
+
+The Object.prototype is on the top of the prototype chain.
+
+All JavaScript objects (Date, Array, RegExp, Function, ....) inherit from the Object.prototype.
+
+----------------
+
+It is considered good practice to name your constructor function with a capital
+
+the constructor function then serves as a prototype for any objects created from it using the NEW operator
+
+
+----------
+
+you can add a new property to an object -- with dot notation -- it is not added to any other object that has been created from the constructor
+
+you cannot add a new property to a prototype the same way as you add a new property to an existing object, because the prototype is not an existing object.
+
+but you can use dot notation with the prototype property to add new protperties and methods
+
+object.prototype.property = '' "
+
+-----------------
+
+In traditional class-oriented languages, you create classes, which are templates for objects. When you want a new object, you instantiate the class, which tells the language engine to copy the methods and properties of the class into a new entity, called an instance. The instance is your object, and, after instantiation, has absolutely no active relation with the parent class.
+
+JavaScript does not have such copy mechanics. "Instantiating" a class in JavaScript does create a new object, but NOT one that is independent of its parent class.
+
+Rather, it creates an object that is linked to a prototype. Changes to that prototype propagate to the new object, even after instantiation.
+
+--------------------
+
+You create classes with the class keyword, followed by an identifier, and finally, a code block, called the class body. These are called class declarations. Class declarations that don't use the extends keyword are called base classes:
+
+----------------------
+A few things to note.
+
+Classes can only contain method definitions, not data properties;
+When defining methods, you use shorthand method definitions;
+Unlike when creating objects, you do not separate method definitions in class bodies with commas; and
+You can refer to properties on instances of the class directly (Line A).
+A distinctive feature of classes is the function called constructor. This is where you initialize your object's properties.
+
+You don't have to define a constructor function. If you choose not to, the engine will insert an empty one for you:
+
+------------------
+Classes created with extends are called subclasses, or derived classes. Using them is straightforward. Building on our Food example:
+
+--------------
+
+Subclasses are declared with the class keyword, followed by an identifier, and then the extends keyword, followed by an arbitrary expression. This will generally just be an identifier, but could, in theory, be a function.
+If your derived class needs to refer to the class it extends, it can do so with the super keyword.
+A derived class can't contain an empty constructor. Even if all the constructor does is call super(), you'll still have to do so explicitly. It can, however, contain no constructor.
+You must call super in the constructor of a derived class before you use this.
+
+
+
+
+

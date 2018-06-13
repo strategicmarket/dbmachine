@@ -1,0 +1,152 @@
+
+Need a website for Staretgic Market
+look at 
+http://appdevinc.com/
+
+
+--------------------
+2 sided market
+1 repo = skill category (payments, addressing, events registration, )
+skill = folder (serverless function, each folder a variant .. versioned)
+requisition - issue -- posted, priced, tagged)
+pricing can be single payment, subscription or both (requires manintenance)
+
+also 
+1 repo = agent -- comilation of skills -- with machine to orchestrate sequence
+
+it is context -- narrow -- so might work -- private member only market
+
+for developers, paid interns, collaboration, skill development, references
+
+need a social site linked to github -- across repos (skills and agents)
+
+---
+tight reqs -- common api, common set of architectural decisions -- shows how to mobilize a workforce around 1 unified goal
+
+
+
+----------
+
+github issue mgmt - npm
+
+nodejs blog powered by issues
+https://www.npmjs.com/package/acyort
+
+https://www.npmjs.com/package/remark-github
+https://remark.js.org/
+
+slack to github - post issues
+https://www.npmjs.com/package/slack-github-issues
+
+blog tool powered by github
+https://www.npmjs.com/package/Mirror
+http://mirror.am0200.com/
+
+---------
+payments
+https://www.npmjs.com/package/paymentwall
+
+-------------
+
+include a slack account
+github integrations -- run the market out of slack -- and keep record on github
+https://get.slack.help/hc/en-us/articles/232289568-Use-GitHub-with-Slack
+
+https://www.prnewswire.com/news-releases/ibm-launches-new-bluemix-services-with-github-and-slack-integration-to-speed-app-development-in-the-cloud-300373539.html
+
+still need a pricing board --
+
+----------
+
+license discussion
+https://github.com/Free2Wait/composer-free2wait
+
+be careful not to violate terms of service - should be a private invitation only -- internship but payment is by the outome
+
+https://help.github.com/articles/github-terms-of-service/
+
+
+
+-------
+
+monetize github issues
+tag issues with a price > forks repo and works > receive pull request
+https://thenextweb.com/dd/2016/03/14/codemill-monetizing-github-issues-pull-requests-freelance-developers/
+
+http://codemill.io/
+https://www.bountysource.com/
+https://canya.io/
+https://github.com/signalapp/BitHub
+
+
+blockchain powered
+- client books a provider
+- amt encumbered via hedge contract
+- provider completes the job
+- client releases payment
+- escrow pays the provider
+CanYa is a trusted and revolutionary app-based service platform that allows you to outsource local home, trade and professional services to verified local providers in your community. 
+
+CanYa is trusted service - 800 members - acquired bountysource - austratia - local trade market
+
+----------
+
+https://github.com/lepture/github-cards
+https://developer.github.com/v3/projects/cards/
+
+
+-----------
+
+https://code.tutsplus.com/articles/team-collaboration-with-github--net-29876
+https://www.pivotaltracker.com/features
+
+
+------------
+
+passport github 
+https://www.npmjs.com/package/passport-github
+
+https://www.npmjs.com/package/react-github-login
+
+----------
+
+
+list issues create cards
+https://www.npmjs.com/package/github-projects
+
+-----------
+
+https://serverless.com/blog/scope-the-open-source-serverless-status-board/
+Scope is an open source status board driven by Serverless technology.
+
+It gives a customizable bird's eye view of your open source project.
+
+The application can be cloned down and deployed for your open source project in minutes
+
+
+
+----------------------------
+
+http://gitlo.co/
+
+
+------
+
+
+
+github project-boards
+https://github.com/marketplace/category/project-management
+
+
+ZENHUB -- free for public repos
+https://github.com/marketplace/zenhub
+
+https://help.github.com/articles/about-project-boards/
+
+Repository project boards are scoped to issues, pull requests, and notes within a single repository.
+
+Organization-wide project boards can contain issues and pull requests from any repository that belongs to an organization.
+
+https://help.github.com/categories/managing-your-work-on-github/
+
+----------

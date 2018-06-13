@@ -1,0 +1,19 @@
+
+
+
+botmaster
+
+https://www.npmjs.com/package/botmaster
+
+-----------------
+
+also api.ai or also knaown as Dialogue Flow
+
+https://dialogflow.com/
+
+https://www.npmjs.com/package/apiai
+
+
+-- example intergations
+
+https://github.com/dialogflow/dialogflow-nodejs-client/tree/c650199ef1015cb517d18c4c79c49045937160ce/samples

@@ -1,0 +1,54 @@
+
+
+slack 
+https://console.bluemix.net/docs/tutorials/slack-chatbot-database-watson.html#build-a-database-driven-slackbot
+
+https://medium.com/ibm-watson/architecting-a-slackbot-for-developers-29ae8a53f1ed
+
+https://github.com/IBM/slack-watson-bot
+
+https://strategicmachines.slack.com/apps/A0T3W4EAX-troops
+
+https://strategicmachines.slack.com/apps/A03P9TDFJ-burner
+
+https://github.com/watson-developer-cloud/conversation-connector
+https://github.com/watson-developer-cloud/conversation-connector/blob/master/channels/slack/README.md#interactive-messages
+
+https://github.com/IBM/owplan
+
+
+
+-----------------
+
+SLACK 
+https://github.com/clonn/slack-node-sdk
+https://github.com/rauchg/slackin
+https://slackin.now.sh/
+https://github.com/smallwins/slack
+https://github.com/integrations/slack
+https://slack.github.com/
+https://github.com/blockmar/slackdown
+
+https://github.com/IBM-Cloud/openwhisk-slackapp
+
+watch video clip on creating slack app
+https://github.com/johnagan/serverless-slack-app
+
+https://github.com/smallwins/bugbot
+
+check out the way this is packaged for src code -- own folders with own package.json
+https://github.com/smallwins/super-fast-slack-buttons
+
+https://github.com/smallwins/slack-express
+
+SLACK ARTICLES
+https://medium.com/openwhisk/a-serverless-composition-of-functions-59b6743d3835
+
+TWILIO AND SLACK
+https://github.com/slackapi/TalkBot
+https://www.twilio.com/blog/2016/04/replying-to-texts-in-slack.html
+https://medium.com/@emilong/how-to-receive-sms-in-slack-using-twilio-functions-4d65f0edc670
+https://medium.com/@jamesthom.as/building-an-sms-bot-for-slack-d52b5bc397e4
+https://github.com/ibmets/smsbot
+http://jamesthom.as/blog/2017/03/20/smsbot/
+https://github.com/IBM-Cloud/phonebot

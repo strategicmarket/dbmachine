@@ -1,0 +1,5 @@
+
+Look at authentication process
+
+
+https://github.com/DanOrlovsky/foodTruckFinder

@@ -1,0 +1,15 @@
+
+
+--------------------------
+potential paid options
+
+https://www.easycron.com/
+
+https://www.easycron.com/document
+
+https://crontab-generator.org/
+
+-------------------------
+
+using nodejs server to schedule events?
+https://www.npmjs.com/package/node-schedule
