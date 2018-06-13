@@ -1,8 +1,0 @@
-
-
-
-probot intro
-https://probot.github.io/docs/
-
-probot deployments
-https://probot.github.io/docs/deployment/

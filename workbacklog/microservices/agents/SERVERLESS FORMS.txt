@@ -1,4 +1,0 @@
-
-MICRO FORMS
-
-https://github.com/serverless/forms-service/blob/master/README.md

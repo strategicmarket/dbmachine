@@ -1,7 +1,0 @@
-
-
-
-wizard for auth0
-
-
-https://auth0-cosmos.now.sh/clients

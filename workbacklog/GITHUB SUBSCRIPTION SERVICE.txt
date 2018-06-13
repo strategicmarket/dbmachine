@@ -1,6 +1,0 @@
-
-
-
-open source subscription service
-
-https://fraternate.herokuapp.com/

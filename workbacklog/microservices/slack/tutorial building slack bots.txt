@@ -1,4 +1,0 @@
-
-
-building slack bots
-https://github.com/PacktPublishing/Building-Slack-Bots

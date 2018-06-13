@@ -1,6 +1,0 @@
-
-
-agent exchange 
-
-
-https://developer.ibm.com/code/exchanges/bots/

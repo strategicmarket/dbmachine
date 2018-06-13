@@ -1,5 +1,0 @@
-
-
-ERROR PAGES
-https://github.com/AndiDittrich/HttpErrorPages
-https://www.npmjs.com/package/http-error-pages

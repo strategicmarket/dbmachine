@@ -1,9 +1,0 @@
-
-
-
-
-https://www.npmjs.com/package/pkgcloud
-
-
-a package to abstract away differences among cloud providers -- what about skill providers? AI providers?
-

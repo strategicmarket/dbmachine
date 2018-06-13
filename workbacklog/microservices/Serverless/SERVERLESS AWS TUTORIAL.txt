@@ -1,4 +1,0 @@
-
-
-
-https://serverless.com/blog/anatomy-of-a-serverless-app/

@@ -1,5 +1,0 @@
-
-
-UNSTATELY - State Management
-
-https://github.com/thejameskyle/unstated

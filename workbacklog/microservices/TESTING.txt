@@ -1,4 +1,0 @@
-
-TESTING
-
-https://labs.spotify.com/2018/01/11/testing-of-microservices/

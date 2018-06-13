@@ -1,7 +1,0 @@
-
-
-solace - enterprise grade messaging
-
-keith mcauliffe
-
-https://solace.com/

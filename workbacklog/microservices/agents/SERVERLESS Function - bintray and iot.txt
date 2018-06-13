@@ -1,6 +1,0 @@
-
-serverless iot
-
-
-
-https://github.com/jainishshah17/serverless-iot/blob/master/README.md

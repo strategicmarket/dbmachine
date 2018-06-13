@@ -1,6 +1,0 @@
-
-
-
-conference bot
-
-https://github.com/IBM/owplan

@@ -1,5 +1,0 @@
-
-
-Cloudinary, Vue and Node -- image recommendation
-
-https://vuejsdevelopers.com/2018/04/16/video-vue-node-cloudinary/

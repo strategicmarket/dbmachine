@@ -1,5 +1,0 @@
-
-
-Scaffolding for large Project serverless on aws
-
-https://github.com/msfidelis/serverless-architecture-boilerplate

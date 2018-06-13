@@ -1,6 +1,0 @@
-
-
-
-serverless components
-
-https://serverless.com/blog/what-are-serverless-components-how-use/

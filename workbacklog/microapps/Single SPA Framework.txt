@@ -1,7 +1,0 @@
-
-
-
-can be explored -- a framework to allow many apps coexist in a single spa --- but not sure this is something you want to do unless threading together mnay open source projects
-
-
-https://single-spa.surge.sh/

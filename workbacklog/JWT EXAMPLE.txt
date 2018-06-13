@@ -1,5 +1,0 @@
-
-
-USES JWT
-
-https://github.com/crc017/teamSkynet

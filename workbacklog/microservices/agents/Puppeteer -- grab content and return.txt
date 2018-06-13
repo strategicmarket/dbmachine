@@ -1,8 +1,0 @@
-
-
-
-
-
-https://try-puppeteer.appspot.com/
-
-https://github.com/GoogleChrome/puppeteer

@@ -1,6 +1,0 @@
-
-GITHUB BOT
-
-built with react phantom and server;ess
-
-https://medium.freecodecamp.org/how-to-build-a-github-bot-with-phantomjs-react-and-serverless-framework-7b66bb575616

@@ -1,4 +1,0 @@
-
-100 lines of code for microservices discovery
-
-https://github.com/asyncanup/vasco

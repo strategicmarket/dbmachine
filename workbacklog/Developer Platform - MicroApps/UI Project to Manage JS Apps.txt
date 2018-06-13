@@ -1,6 +1,0 @@
-
-
-
-
-ui kit to manage javascript apps
-https://github.com/kitze/JSUI

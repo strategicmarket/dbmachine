@@ -1,4 +1,0 @@
-
-
-
-https://blog.solutotlv.com/graphql-to-mongodb-or-how-i-learned-to-stop-worrying-and-love-generated-query-apis/

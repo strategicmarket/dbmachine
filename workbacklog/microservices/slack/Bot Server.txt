@@ -1,6 +1,0 @@
-
-
-
-bot server for slack
-
-https://github.com/gtracy/slack-stuart

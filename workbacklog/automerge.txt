@@ -1,5 +1,0 @@
-
-
-
-auto merge -- documents
-https://github.com/automerge/automerge

@@ -1,6 +1,0 @@
-
-image > server > cloudinary > get an api back > db object -- can now red image anywhere
-
-cloudinary - image storage
-
-https://www.npmjs.com/package/multer
