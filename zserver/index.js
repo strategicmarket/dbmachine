@@ -11,8 +11,6 @@ const bodyParser =         require('body-parser');
 const cors =               require('cors')
 const favicon =            require('serve-favicon');
 const logger =             require("morgan");
-const api =                require("../api")
-//const keys =               require('../config').init();
 const transport =          require('../config/gmail')
 
 const { g, b, gr, r, y } = require('../console');
