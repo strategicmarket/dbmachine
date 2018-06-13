@@ -35,9 +35,7 @@
     "clone-deep": "1.0.0",
     "cors": "^2.8.3",
     "deepmerge": "2.1.0",
-    "escape-string-regexp": "^1.0.5",
     "express": "^4.14.0",
-    "form-serialize": "^0.7.2",
     "mongoose": "^5.1.5",
     "morgan": "^1.7.0",
     "nested-property": "0.0.7",
@@ -53,12 +51,10 @@
     "serve-favicon": "2.4.5",
     "sort-by": "^1.2.0",
     "styled-components": "2.4.0",
-    "twilio": "^3.17.2",
     "url": "0.11.0",
     "uuid": "3.0.1",
     "valid-url": "1.0.9",
     "validator": "^9.3.0",
-    "watson-developer-cloud": "3.0.2",
     "webpack": "^1.14.0"
   },
   "devDependencies": {
