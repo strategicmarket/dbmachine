@@ -160,7 +160,7 @@ const objStore =  [
   skills: [{
     skillname:  'agent',
     skilltype: 'api',
-    skillsource: 'https://openwhisk.ng.bluemix.net/api/v1/web/patrick.howard@hotmail.com_dev/default/sm_liverep.json'
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'I escalate to a live agent',
   priority: '1',
