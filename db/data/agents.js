@@ -731,6 +731,45 @@ const objStore =  [
   handle: 'cb-dev-music',
   handler: "aws",
   id: uuidv1() },
+  {
+  name: 'worship',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Lets worship',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'registerstartingpoint',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'How do I get started',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'music',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Lets sing',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
 ]
 
 module.exports = objStore;
