@@ -35,19 +35,6 @@ const objStore =  [
   handler: "openwhisk",
   id: uuidv1() },
   {
-  name: 'location',
-  avatar: 'https://www.gravatar.com/avatar/',
-  skills: [{
-    skillname:  'echo',
-    skilltype: 'api',
-    skillsource: 'https://openwhisk.ng.bluemix.net/api/v1/web/patrick.howard@hotmail.com_dev/default/cb-dev-echo.json'
-  }],
-  greeting: 'I deliver locaton based services',
-  priority: '1',
-  handle: 'cb-dev-location',
-  handler: "openwhisk",
-  id: uuidv1() },
-  {
   name: 'product',
   avatar: 'https://www.gravatar.com/avatar/',
   skills: [{
@@ -365,19 +352,6 @@ const objStore =  [
   greeting: 'I am here to help',
   priority: '1',
   handle: 'cb-dev-morehelp',
-  handler: "openwhisk",
-  id: uuidv1() },
-  {
-  name: 'support',
-  avatar: 'https://www.gravatar.com/avatar/',
-  skills: [{
-    skillname:  'echo',
-    skilltype: 'api',
-    skillsource: 'https://openwhisk.ng.bluemix.net/api/v1/web/patrick.howard@hotmail.com_dev/default/cb-dev-echo.json'
-  }],
-  greeting: 'I am your support bot',
-  priority: '1',
-  handle: 'cb-dev-support',
   handler: "openwhisk",
   id: uuidv1() },
   {
@@ -844,19 +818,6 @@ const objStore =  [
     skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'I need child care for member night',
-  priority: '1',
-  handle: 'cb-dev-music',
-  handler: "aws",
-  id: uuidv1() },
-  {
-  name: 'childcarestartingpoint',
-  avatar: 'https://www.gravatar.com/avatar/',
-  skills: [{
-    skillname:  'echo',
-    skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
-  }],
-  greeting: 'I need child care for starting point',
   priority: '1',
   handle: 'cb-dev-music',
   handler: "aws",
