@@ -47,7 +47,14 @@ const objStore =  [
   		port: 15416,
   		password: ""
   	},
-  	watsonclassifier: {
+    watsonclassifier: {
+		  description: "Mercy Action v14",
+		  url: "https://gateway.watsonplatform.net/natural-language-classifier/api",
+		  username: "947a6405-d061-43d7-a696-51daa119c32e",
+		  password: "n70l6K7n2Tnt",
+		  classifier1: "e997b3x362-nlc-1018"
+	   },
+  	otherclassifier: {
   		description: "Turing machine classifier V2",
   		url: "https://gateway.watsonplatform.net/natural-language-classifier/api",
   		username: "947a6405-d061-43d7-a696-51daa119c32e",

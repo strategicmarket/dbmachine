@@ -173,7 +173,7 @@ const objStore =  [
   skills: [{
     skillname:  'agent',
     skilltype: 'api',
-    skillsource: 'https://openwhisk.ng.bluemix.net/api/v1/web/patrick.howard@hotmail.com_dev/default/sm_close.json'
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'I can do a gentle close',
   priority: '1',
@@ -199,7 +199,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://openwhisk.ng.bluemix.net/api/v1/web/patrick.howard@hotmail.com_dev/default/cb-dev-echo.json'
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'i am here to help',
   priority: '1',
@@ -212,12 +212,12 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://openwhisk.ng.bluemix.net/api/v1/web/patrick.howard@hotmail.com_dev/default/cb-dev-echo.json'
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Lets sing',
   priority: '1',
   handle: 'cb-dev-music',
-  handler: "openwhisk",
+  handler: "aws",
   id: uuidv1() },
   {
   name: 'marketing',
@@ -509,7 +509,228 @@ const objStore =  [
   priority: '1',
   handle: 'cb-dev-chaotic',
   handler: "openwhisk",
-  id: uuidv1() }
+  id: uuidv1() },
+  {
+  name: 'music2',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Lets sing more',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'support',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'support for you',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'message',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'here is the sermon',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'prayer',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'I pray for you',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'times',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Here is when we meet',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'events',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'This is what is happening',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'cg',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Our community groups provide fellowship',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'weather',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Here is a weather report',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'location',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'This is where we meet',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'mission',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'This is our mission',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'beliefs',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'This is what we believe',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'children',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'This is what we have for children',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'students',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'This is what we have for students',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'college',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Our college ministry is great',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'giving',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'How to give',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'membership',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Our membership program',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  {
+  name: 'serveweek',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'How we server the community',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
 ]
 
 module.exports = objStore;
