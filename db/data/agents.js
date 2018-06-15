@@ -758,18 +758,103 @@ const objStore =  [
   handler: "aws",
   id: uuidv1() },
   {
-  name: 'music',
+  name: 'whatisstartingpoint',
   avatar: 'https://www.gravatar.com/avatar/',
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
     skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
   }],
-  greeting: 'Lets sing',
+  greeting: 'Need info on starting point',
   priority: '1',
   handle: 'cb-dev-music',
   handler: "aws",
   id: uuidv1() },
+  {
+  name: 'whereisstartingpoint',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'How do I find starting point',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  name: 'whenisstartingpoint',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'When is starting point',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  name: 'childcarestartingpoint',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Is there child care at starting point',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  name: 'decline',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'I am not able to attend',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  name: 'member',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'Member night registration',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  name: 'memberchild',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'I need child care for member night',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() },
+  name: 'childcarestartingpoint',
+  avatar: 'https://www.gravatar.com/avatar/',
+  skills: [{
+    skillname:  'echo',
+    skilltype: 'api',
+    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+  }],
+  greeting: 'I need child care for starting point',
+  priority: '1',
+  handle: 'cb-dev-music',
+  handler: "aws",
+  id: uuidv1() }
 ]
 
 module.exports = objStore;
