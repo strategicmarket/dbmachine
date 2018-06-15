@@ -783,6 +783,7 @@ const objStore =  [
   handle: 'cb-dev-music',
   handler: "aws",
   id: uuidv1() },
+  {
   name: 'whenisstartingpoint',
   avatar: 'https://www.gravatar.com/avatar/',
   skills: [{
@@ -795,6 +796,7 @@ const objStore =  [
   handle: 'cb-dev-music',
   handler: "aws",
   id: uuidv1() },
+  {
   name: 'childcarestartingpoint',
   avatar: 'https://www.gravatar.com/avatar/',
   skills: [{
@@ -807,6 +809,7 @@ const objStore =  [
   handle: 'cb-dev-music',
   handler: "aws",
   id: uuidv1() },
+  {
   name: 'decline',
   avatar: 'https://www.gravatar.com/avatar/',
   skills: [{
@@ -819,6 +822,7 @@ const objStore =  [
   handle: 'cb-dev-music',
   handler: "aws",
   id: uuidv1() },
+  {
   name: 'member',
   avatar: 'https://www.gravatar.com/avatar/',
   skills: [{
@@ -831,6 +835,7 @@ const objStore =  [
   handle: 'cb-dev-music',
   handler: "aws",
   id: uuidv1() },
+  {
   name: 'memberchild',
   avatar: 'https://www.gravatar.com/avatar/',
   skills: [{
@@ -843,6 +848,7 @@ const objStore =  [
   handle: 'cb-dev-music',
   handler: "aws",
   id: uuidv1() },
+  {
   name: 'childcarestartingpoint',
   avatar: 'https://www.gravatar.com/avatar/',
   skills: [{
