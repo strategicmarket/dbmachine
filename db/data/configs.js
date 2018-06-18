@@ -27,8 +27,8 @@ const objStore =  [
   		profileFields: ["id", "displayName", "photos"]
   	},
   	twilio: {
-  		sid: "",
-  		token: "",
+  		sid: "ACe2f5abf6cf7c589a662a8e38097bbac1",
+  		token: "09d6cb826012afbe4f0bca7ad3dfe33d",
   	  API_Secret: "",
   	  username: "",
   		chaotic: ""
