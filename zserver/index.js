@@ -79,6 +79,18 @@ function genLocal() {
 
 }
 
+function genCloud() {
+  console.log("###############################################");
+  console.log("");
+  console.log("Generating localhost Database");
+  console.log("");
+  console.log("###############################################");
+
+  let dbParms = {}
+  dbParms.envState = false
+  require('../db/seedTestDb')(dbParms)
+}
+
 // server
 let port = process.env.PORT || process.env.localport;
 
