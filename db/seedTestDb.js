@@ -36,6 +36,7 @@ module.exports = function (dbParms) {
     if (utils.isValidUrl(config[0].uri)) {
     console.log("----- ENTERED SEEDTESTDATA----")
     // execute async function
+      let configObj = {}
       configObj = { ...config[0], ...dbParms }
       steps(configObj).then((result) => {
         console.log("----- Test Databases Created and Seeded----")
@@ -53,8 +54,8 @@ module.exports = function (dbParms) {
 
     // drop and create test client collection.
     // For every valid client, create test collections on their db
-    async function steps(config) {
-      let clientArray =    await step1(config)
+    async function steps(configObj) {
+      let clientArray =    await step1(configObj)
       let result =         await step2(clientArray)
       return result
     }
@@ -64,7 +65,7 @@ const step1 = (config) => {
   // drop old test collection for clients and create new test collection
   return new Promise((resolve, reject) => {
 
-    const dbUIR
+    let dbUIR
 
     // if envState is true, it means we are running on the cloud
     // uri in the client collection needs to be update
