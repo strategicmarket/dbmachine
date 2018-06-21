@@ -46,66 +46,41 @@ function checkURL() {
     console.log("###############################################");
 
     // Exit
-    process.exit();
+    start();
   }
 
   // After performing the "check", the next set of configs is intiated
-  buildConfig();
+  return
 
 }
 
 
 // This function holds the process logic for configuring test data bases
-function buildConfig() {
+function start() {
 
   // We create a list prompt. Specifying that the user must pick a random number between 1 and 5.
   inquirer.prompt([
     {
       type: "list",
-      name: "userGuess",
-      message: "Try to stay alive! Guess a number between [1-5]",
-      choices: ["1", "2", "3", "4", "5"]
+      name: "testEnv",
+      message: "Do you want to generate test data for MLAB or localhost?",
+      choices: ["MLAB", "localhost", "exit"]
     }
 
-  ]).then(function(guess) {
+  ]).then(function(answer) {
 
-    // If the user is still alive or the zombie is still alive
-    if (userHealth > 0 || zombieHealth > 0) {
+    if (answer.testEnv.toUpperCase() == "MLAB") {
 
-      // Assign a random damage value for the round.
-      var damage = Math.floor(Math.random() * 5) + 1;
-
-      // The zombie should choose a random number.
-      var zombieNum = Math.floor((Math.random() * 5)) + 1;
-      console.log("");
-      console.log("");
-      console.log("Zombie rolled " + zombieNum);
-
-      // If the user's guess matches the number then...
-      if (zombieNum === parseInt(guess.userGuess)) {
-
-        // Subtract the damage amount from the zombie's health.
-        zombieHealth -= damage;
-        console.log("YOU HIT THE ZOMBIE WITH " + damage + " damage");
-        console.log("You have " + userHealth + " health left. The Zombie has " + zombieHealth + " health left.");
-
-        // Check if the game is over.
-        checkRound();
-      }
-
-      else {
-        // Subtract the damage amount from the user's health.
-        userHealth -= damage;
-        console.log("OH NO! The zombie slashed you with " + damage + " damage");
-        console.log("You have " + userHealth + " health left. The Zombie has " + zombieHealth + " health left.");
-
-        // Check if the game is over.
-        checkRound();
-
-      }
     }
+    if (answer.testEnv.toUpperCase() == "LOCALHOST") {
+
+    }
+    if (answer.testEnv.toUpperCase() == "EXIT"){
+
+    }
+    
   });
 }
 
 // Starts the game!
-playRound();
+buildConfig();
