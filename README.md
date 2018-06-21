@@ -30,7 +30,7 @@ In addition, a workitem collection is being generated one of the test client's (
 
 4. For every client document where isActivated==true, a corresponding uri must be provided to store the test data for that client. If the uri points to MLAB, the database must be defined and valid username and password data must be supplied
 
-## Test Data Generation
+## Test Data Generation - right from your laptop
 
 1. node server
 

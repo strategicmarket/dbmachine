@@ -4,10 +4,12 @@ require('dotenv').config()
 //////            mainline processing                 ///////
 //////       c xio 2016 - all rights reserved        ///////
 ///////////////////////////////////////////////////////////
+const express =            require("express")
 const q =                  require("inquirer")
 
 const { g, b, gr, r, y } = require('../console');
 
+const app = express()
 
 //////////////////////////////////////////////////////
 ////////// Test Data Generator Bot   ///////////////
@@ -77,5 +79,11 @@ function genLocal() {
 
 }
 
-// Starts the game!
-start();
+// server
+let port = process.env.PORT || process.env.localport;
+
+app.listen(port, () => {
+  console.log(b('listening on port '), port)
+  // Starts the process!
+  start();
+});
