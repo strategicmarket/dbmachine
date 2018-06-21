@@ -43,6 +43,11 @@ In order to simplify this process of generating test data, the following assumpt
 - the four databases should be named platform, chaotic, machine, and mercy
 - the platform database is owned by the platform, and stores the collection of client documents
 - the chaotic, machine and mercy databases correspond to 3 test customers of the platform, and each these respective database will hold agent, member, config and interaction data (as well as workitems used by the 'machine')
+- the MLAB test generator questions will ask specifically for the subdomain and port ... and assumes the userid, password and db name conforms to the requirements listed above
+
+mongodb://machina:Awes0me@ds025802.mlab.com:25802/platform
+
+sample URI ... in this sample ... subdomain = ds025802 and port = 25802
 
 Note - each of these test customers have the same exact collections after test data generation. The test data can be modified using the data editor on MLAB if other test conditions need to be tested
 
