@@ -69,7 +69,7 @@ function start() {
 function genLocal() {
   console.log("###############################################");
   console.log("");
-  console.log("Generating localhost Database");
+  console.log("Generating localhost Test Database");
   console.log("");
   console.log("###############################################");
 
@@ -82,9 +82,11 @@ function genLocal() {
 function genCloud() {
   console.log("###############################################");
   console.log("");
-  console.log("Generating localhost Database");
+  console.log("Generating Cloud Test Database");
+  console.log("Note - This Action Will Modify the client.js Collection for 3 Test Clients")
   console.log("");
   console.log("###############################################");
+  console.log("")
 
   let dbParms = {}
   dbParms.envState = false

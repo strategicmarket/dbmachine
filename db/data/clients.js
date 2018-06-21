@@ -18,7 +18,7 @@ const objStore = [
   isActivated: false
   },
   {
-	name: "Chaotic",
+	name: "chaotic",
   image: 'https://randomuser.me/api/portraits/men/14.jpg',
   addr1: '1234 Main Street',
 	addr2: 'Suite 1235',
@@ -31,13 +31,12 @@ const objStore = [
 	web: "demo",
 	dbname: "chaotic",
 	uri: "mongodb://localhost:27017/",
-	uriremote: "mongodb://machina:Charl0tte@ds161630.mlab.com:61630/",
 	username: "machina",
 	password: "Charl0tte",
   isActivated: true
 	},
 	{
-	name: "Machine",
+	name: "machine",
   image: 'https://randomuser.me/api/portraits/men/14.jpg',
   addr1: '1234 Main Street',
 	addr2: 'Suite 1235',
@@ -50,7 +49,6 @@ const objStore = [
 	web: "demo",
 	dbname: "machine",
   uri: "mongodb://localhost:27017/",
-	uriremote: "mongodb://machina:Charl0tte@ds147589.mlab.com:47589/",
 	username: "machina",
 	password: "Charl0tte",
   isActivated: true
@@ -82,7 +80,7 @@ const objStore = [
   isActivated: false
   },
   {
-	name: "Mercy",
+	name: "mercy",
   image: 'https://randomuser.me/api/portraits/men/91.jpg',
   addr1: '1234 Main Street',
 	addr2: 'Suite 1235',
@@ -93,8 +91,7 @@ const objStore = [
 	web: "mercy",
 	dbname: "mercy",
   uri: "mongodb://localhost:27017/",
-	uriremote: "mongodb://mercylive:Charl0tte@ds249249.mlab.com:49249/",
-	username: "mercylive",
+	username: "machina",
 	password: "Charl0tte",
 	contact: 'Charlie King',
 	phone: '704-555-1212',
