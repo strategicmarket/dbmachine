@@ -6,15 +6,12 @@ require('dotenv').config()
 ///////////////////////////////////////////////////////////
 const q =                  require("inquirer")
 const logger =             require("morgan");
-const transport =          require('../config/gmail')
 
 const { g, b, gr, r, y } = require('../console');
-
 
 //////////////////////////////////////////////////////////////////////////
 /////////////    Seed test data if test env detected          ///////////
 ////////////////////////////////////////////////////////////////////////
-
 
 let envState = true
 if ( process.env.isLive == 'false' ) {
@@ -26,34 +23,8 @@ if ( process.env.isLive == 'false' ) {
 ////////////////////  Register Middleware       /////////////////////////
 ////////////////////////////////////////////////////////////////////////
 app.use(logger("dev"));
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
-app.use(express.static('public'));
-app.use('/web', express.static('public'));
-app.use('/member', express.static('public'));
-app.use('/machine', express.static('public'));
-app.use('/form', express.static('public'));
-app.use(favicon(path.join(__dirname, '..', '/public/assets/favicon.ico')));
-app.use(cors())
 
-///////////////////////////////////////////////////////////////////////
-/////////////////// messaging alert for platform errors ///////////////
-//////////////////////////////////////////////////////////////////////
 
-const mailObject = {
-  from: process.env.TRANSPORT_LABEL,
-  to: process.env.TRANSPORT_RECEIVER,
-  subject: 'Platform Error',
-  text: ''
-}
-process.on('uncaughtException', function (er) {
-    console.error(er.stack)
-    mailObject.text = er.stack;
-    transport.sendMail(mailObject, function (er) {
-       if (er) console.error(er)
-       process.exit(1)
-    })
-  })
 
 //////////////////////////////////////////////////////
 ////////// Register and Config Routes ///////////////
