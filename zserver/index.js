@@ -4,12 +4,7 @@ require('dotenv').config()
 //////            mainline processing                 ///////
 //////       c xio 2016 - all rights reserved        ///////
 ///////////////////////////////////////////////////////////
-
-const express =            require('express');
-const path =               require('path');
-const bodyParser =         require('body-parser');
-const cors =               require('cors')
-const favicon =            require('serve-favicon');
+const q =                  require("inquirer")
 const logger =             require("morgan");
 const transport =          require('../config/gmail')
 
