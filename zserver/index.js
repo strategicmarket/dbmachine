@@ -123,16 +123,11 @@ function genCloud() {
       a = answer.machine
       dbParm.machine = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/'
       a = answer.mercy
-      dbParm.mercy = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/'       
+      dbParm.mercy = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/'
       require('../db/seedTestDb')(dbParms)
     });
 }
 
-
-  let dbParms = {}
-  dbParms.envState = false
-  require('../db/seedTestDb')(dbParms)
-}
 
 // server
 let port = process.env.PORT || process.env.localport;

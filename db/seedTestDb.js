@@ -67,9 +67,26 @@ const step1 = (config) => {
     const dbUIR
 
     // if envState is true, it means we are running on the cloud
+    // uri in the client collection needs to be update
 
-    if (dbParms.envState == true) {
-      dbURI = config.platform
+    if (config.dbParms.envState == true) {
+      dbURI = config.platform + "platform"
+      let testClients = testClients.map((t) =>{
+        if(t.name=="chaotic") {
+          t.uri = config.dbParms.chaotic
+          return t
+        }
+        if(t.name=="machine") {
+          t.uri = config.dbParms.machine
+          return t
+        }
+        if(t.name=="chaotic") {
+          t.uri = config.dbParms.chaotic
+          return t
+        }
+        return t
+      })
+
     } else {
       dbURI = config.uri + config.db
     }
