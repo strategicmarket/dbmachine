@@ -10,26 +10,14 @@ const logger =             require("morgan");
 const { g, b, gr, r, y } = require('../console');
 
 //////////////////////////////////////////////////////////////////////////
-/////////////    Seed test data if test env detected          ///////////
-////////////////////////////////////////////////////////////////////////
-
-let envState = true
-if ( process.env.isLive == 'false' ) {
-    envState = false
-    require('../db/seedTestDb')(envState)
-  }
-
-//////////////////////////////////////////////////////////////////////////
 ////////////////////  Register Middleware       /////////////////////////
 ////////////////////////////////////////////////////////////////////////
 app.use(logger("dev"));
 
 
-
 //////////////////////////////////////////////////////
 ////////// Test Data Generator Bot   ///////////////
 ////////////////////////////////////////////////////
-
 
 function checkURL() {
 
@@ -78,8 +66,23 @@ function start() {
     if (answer.testEnv.toUpperCase() == "EXIT"){
       process.exit()
     }
-    
+
   });
+}
+
+function genLocal() {
+  console.log("###############################################");
+  console.log("");
+  console.log("Generating Local Database");
+  console.log("");
+  console.log("###############################################");
+
+  let envState = true
+  if ( process.env.isLive == 'false' ) {
+      envState = false
+      require('../db/seedTestDb')(envState)
+    }
+
 }
 
 // Starts the game!
