@@ -8,9 +8,9 @@ Test data generator for the Strategic Machines set of platforms
 Getting the app running on your local machine takes only a few steps:
 
 1. clone the project - `git clone https://github.com/strategicmarket/dbmachine.git
-2. install its dependencies - `npm install`
+2. install dependencies - `npm install`
 
-## Data Prep
+## Test Data Prep
 
 In order to successfully navigate the test environment for Strategic Machines, it is important to understand the data model for the platform.
 
@@ -28,7 +28,13 @@ Note that in platform.json the uri, username and password must be supplied for M
 
 In addition, a workitem collection is being generated one of the test client's (name='Machine'). The 'Machine' is a client of the platform who also has the privilege of operating a marketplace. The marketplace is venue in which customers can request custom services to build bots.
 
-4. For every client document where isActivated==true, a corresponding uri must be provided to store the test data for that client. 
+4. For every client document where isActivated==true, a corresponding uri must be provided to store the test data for that client. If the uri points to MLAB, the database must be defined and valid username and password data must be supplied
+
+## Test Data Generation
+
+1. node server
+
+2. Follow the prompts
 
 
 ## License and Use
