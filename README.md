@@ -37,18 +37,21 @@ In addition, a workitem collection is being generated one of the test client's (
 2. Follow the prompts
 
 In order to simplify this process of generating test data, the following assumptions are made
-> if localhost is selected as the destination of the test data sets, no additional work is needed other than running mongo on your local host
-> if MLAB is selected as the destination of the test data sets, the following steps are required to successfully complete the process before running the test data generator
+
+1. if localhost is selected as the destination of the test data sets, no additional work is needed other than running mongo on your local host
+2. if MLAB is selected as the destination of the test data sets, the following steps are required to successfully complete the process before running the test data generator
 - create 4 databases on MLAB account(s), with each test database having a database user of machina and a password of Awes0me
 - the four databases should be named platform, chaotic, machine, and mercy
 - the platform database is owned by the platform, and stores the collection of client documents
 - the chaotic, machine and mercy databases correspond to 3 test customers of the platform, and each these respective database will hold agent, member, config and interaction data (as well as workitems used by the 'machine')
-- the MLAB test generator questions will ask specifically for the subdomain and port ... and assumes the userid, password and db name conforms to the requirements listed above
+- the MLAB test generator questions will ask specifically for the subdomain and assumes the userid, password and db name conforms to the requirements listed above
 
 mongodb://machina:Awes0me@ds025802.mlab.com:25802/platform
 
-sample URI ... in this sample ... subdomain = ds022802 and port = 22802
+For example, in the mlab console you will note in this example that the subdomain is ds115971 for the test database chaotic. This subdomain would be entered at the prompt for that test database
+
 ![Imgur Image](./assets/mlab.png)
+
 Note - each of these test customers have the same exact collections after test data generation. The test data can be modified using the data editor on MLAB if other test conditions need to be tested
 
 ## License and Use
