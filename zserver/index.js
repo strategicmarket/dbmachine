@@ -70,17 +70,17 @@ function start() {
   ]).then(function(answer) {
 
     if (answer.testEnv.toUpperCase() == "MLAB") {
-
+      genCloud()
     }
     if (answer.testEnv.toUpperCase() == "LOCALHOST") {
-
+      genLocal()
     }
     if (answer.testEnv.toUpperCase() == "EXIT"){
-
+      process.exit()
     }
     
   });
 }
 
 // Starts the game!
-buildConfig();
+start();
