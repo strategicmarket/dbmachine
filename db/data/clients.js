@@ -18,7 +18,7 @@ const objStore = [
   isActivated: false
   },
   {
-	name: "Strategic Machines (test local)",
+	name: "Chaotic",
   image: 'https://randomuser.me/api/portraits/men/14.jpg',
   addr1: '1234 Main Street',
 	addr2: 'Suite 1235',
@@ -29,7 +29,7 @@ const objStore = [
 	phone: '704-555-1212',
 	sms: "+17042289191",
 	web: "demo",
-	dbname: "smtest",
+	dbname: "chaotic",
 	uri: "mongodb://localhost:27017/",
 	uriremote: "mongodb://machina:Charl0tte@ds161630.mlab.com:61630/",
 	username: "machina",
@@ -37,7 +37,7 @@ const objStore = [
   isActivated: true
 	},
 	{
-	name: "Strategic Machines (test cloud)",
+	name: "Machine",
   image: 'https://randomuser.me/api/portraits/men/14.jpg',
   addr1: '1234 Main Street',
 	addr2: 'Suite 1235',
@@ -48,7 +48,7 @@ const objStore = [
 	phone: '704-555-1212',
 	sms: "+19148195104",
 	web: "demo",
-	dbname: "smcloud",
+	dbname: "machine",
   uri: "mongodb://localhost:27017/",
 	uriremote: "mongodb://machina:Charl0tte@ds147589.mlab.com:47589/",
 	username: "machina",
@@ -82,7 +82,7 @@ const objStore = [
   isActivated: false
   },
   {
-	name: "Mercy (test db)",
+	name: "Mercy",
   image: 'https://randomuser.me/api/portraits/men/91.jpg',
   addr1: '1234 Main Street',
 	addr2: 'Suite 1235',
@@ -91,7 +91,7 @@ const objStore = [
 	zip: '12345',
 	sms: "+19802294921",
 	web: "mercy",
-	dbname: "mercytest",
+	dbname: "mercy",
   uri: "mongodb://localhost:27017/",
 	uriremote: "mongodb://mercylive:Charl0tte@ds249249.mlab.com:49249/",
 	username: "mercylive",
