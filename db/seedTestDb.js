@@ -8,11 +8,11 @@ const mongoose =            require('mongoose')
 const Client =              require('./schemas/Client').Client
 const platform =            require('../config').platform()
 const utils =               require('../utils')
-const testClients =         require('./data/clients')
 const initializeAgents =    require('./initialize/getagents')
 const initializeMembers =   require('./initialize/getmembers')
 const initializeWorkitems = require('./initialize/getworkitems')
 const initializeConfigs =   require('./initialize/getconfigs')
+let testClients =           require('./data/clients')
 const { g, b, gr, r, y } =  require('../console')
 
 let options = {
@@ -65,14 +65,14 @@ const step1 = (config) => {
   // drop old test collection for clients and create new test collection
   return new Promise((resolve, reject) => {
 
-    let dbUIR
+    let dbURI
 
     // if envState is true, it means we are running on the cloud
     // uri in the client collection needs to be update
 
     if (config.envState == true) {
       dbURI = config.platform + "platform"
-      let testClients = testClients.map((t) =>{
+      testClients = testClients.map((t) =>{
         if(t.name=="chaotic") {
           t.uri = config.chaotic
           return t
@@ -82,7 +82,7 @@ const step1 = (config) => {
           return t
         }
         if(t.name=="mercy") {
-          t.uri = config.chaotic
+          t.uri = config.mercy
           return t
         }
         return t
@@ -91,6 +91,9 @@ const step1 = (config) => {
     } else {
       dbURI = config.uri + config.db
     }
+    console.log(">>>>>DEBUG")
+    console.log(dbURI)
+    console.log(testClients)
 
       mongoose.connect(dbURI)
       let dbc = mongoose.connection
