@@ -28,6 +28,8 @@ Note that in platform.json the uri, username and password must be supplied for M
 
 In addition, a workitem collection is being generated one of the test client's (name='Machine'). The 'Machine' is a client of the platform who also has the privilege of operating a marketplace. The marketplace is venue in which customers can request custom services to build bots.
 
+4. For every client document where isActivated==true, a corresponding uri must be provided to store the test data for that client. 
+
 
 ## License and Use
  [LICENSE](./LICENSE.txt)
