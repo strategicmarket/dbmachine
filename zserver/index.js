@@ -10,7 +10,6 @@ const transport =          require('../config/gmail')
 
 const { g, b, gr, r, y } = require('../console');
 
-const app =   express();
 
 //////////////////////////////////////////////////////////////////////////
 /////////////    Seed test data if test env detected          ///////////
