@@ -26,10 +26,18 @@ module.exports = function (dbParms) {
     mongoose.Promise = global.Promise;
     const config = platform.filter((p) => p.isLive == dbParms.envState)
 
+    // if the target environment is the cloud, then uris for the 4 databases need to be set
+    // based on custom uris that are passed in the arguments
+
+    if (dbParms.envState == true) {
+      config[0].uri = dbParms.platform
+    }
+
     if (utils.isValidUrl(config[0].uri)) {
     console.log("----- ENTERED SEEDTESTDATA----")
     // execute async function
-      steps(config).then((result) => {
+      configObj = { ...config[0], ...dbParms }
+      steps(configObj).then((result) => {
         console.log("----- Test Databases Created and Seeded----")
         return
         }).catch((err) => {
@@ -55,7 +63,17 @@ module.exports = function (dbParms) {
 const step1 = (config) => {
   // drop old test collection for clients and create new test collection
   return new Promise((resolve, reject) => {
-      const dbURI = config[0].uri + config[0].db
+
+    const dbUIR
+
+    // if envState is true, it means we are running on the cloud
+
+    if (dbParms.envState == true) {
+      dbURI = config.platform
+    } else {
+      dbURI = config.uri + config.db
+    }
+
       mongoose.connect(dbURI)
       let dbc = mongoose.connection
 

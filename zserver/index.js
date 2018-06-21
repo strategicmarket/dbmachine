@@ -117,13 +117,13 @@ function genCloud() {
       let a
       dbParms.envState = true
       a = answer.platform
-      dbParm.platform = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/platform'
+      dbParm.platform = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/'
       a = answer.chaotic
-      dbParm.chaotic = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/platform'
+      dbParm.chaotic = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/'
       a = answer.machine
-      dbParm.machine = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/platform'
+      dbParm.machine = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/'
       a = answer.mercy
-      dbParm.mercy = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/platform'       
+      dbParm.mercy = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/'       
       require('../db/seedTestDb')(dbParms)
     });
 }
