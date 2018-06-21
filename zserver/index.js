@@ -5,14 +5,8 @@ require('dotenv').config()
 //////       c xio 2016 - all rights reserved        ///////
 ///////////////////////////////////////////////////////////
 const q =                  require("inquirer")
-const logger =             require("morgan");
 
 const { g, b, gr, r, y } = require('../console');
-
-//////////////////////////////////////////////////////////////////////////
-////////////////////  Register Middleware       /////////////////////////
-////////////////////////////////////////////////////////////////////////
-app.use(logger("dev"));
 
 
 //////////////////////////////////////////////////////
@@ -73,15 +67,13 @@ function start() {
 function genLocal() {
   console.log("###############################################");
   console.log("");
-  console.log("Generating Local Database");
+  console.log("Generating localhost Database");
   console.log("");
   console.log("###############################################");
 
-  let envState = true
-  if ( process.env.isLive == 'false' ) {
-      envState = false
-      require('../db/seedTestDb')(envState)
-    }
+  let dbParms = {}
+  dbParms.envState = false
+  require('../db/seedTestDb')(dbParms)
 
 }
 

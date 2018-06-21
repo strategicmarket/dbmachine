@@ -8,7 +8,6 @@ const mongoose =            require('mongoose')
 const Client =              require('./schemas/Client').Client
 const platform =            require('../config').platform()
 const utils =               require('../utils')
-const connect =             require('./connections')
 const testClients =         require('./data/clients')
 const initializeAgents =    require('./initialize/getagents')
 const initializeMembers =   require('./initialize/getmembers')
@@ -23,10 +22,9 @@ let options = {
 
 // initializes db and collections for test environment
 // platform contains the uri for physical database with test client collection
-module.exports = function (envState) {
+module.exports = function (dbParms) {
     mongoose.Promise = global.Promise;
-    const config = platform.filter((p) => p.isLive == envState)
-  //  const dbURI = config[0].uri + config[0].db
+    const config = platform.filter((p) => p.isLive == dbParms.envState)
 
     if (utils.isValidUrl(config[0].uri)) {
     console.log("----- ENTERED SEEDTESTDATA----")
