@@ -41,7 +41,7 @@ function checkURL() {
 function start() {
 
   // We create a list prompt. Specifying that the user must pick a random number between 1 and 5.
-  inquirer.prompt([
+  q.prompt([
     {
       type: "list",
       name: "testEnv",
