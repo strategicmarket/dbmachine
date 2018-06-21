@@ -47,7 +47,7 @@ In order to simplify this process of generating test data, the following assumpt
 
 mongodb://machina:Awes0me@ds025802.mlab.com:25802/platform
 
-sample URI ... in this sample ... subdomain = ds025802 and port = 25802
+sample URI ... in this sample ... subdomain = ds022802 and port = 22802
 
 Note - each of these test customers have the same exact collections after test data generation. The test data can be modified using the data editor on MLAB if other test conditions need to be tested
 

@@ -80,13 +80,54 @@ function genLocal() {
 }
 
 function genCloud() {
-  console.log("###############################################");
+  console.logb(b("###############################################"));
   console.log("");
-  console.log("Generating Cloud Test Database");
-  console.log("Note - This Action Will Modify the client.js Collection for 3 Test Clients")
+  console.log(b("Generating Cloud Test Database"));
+  console.log(b("Note - This Action Will Modify the client.js Collection for 3 Test Clients"))
+  console.log(b("Machines, Chaotic and Mercy"))
+  console.log(b("review docs for further detail"))
   console.log("");
   console.log("###############################################");
   console.log("")
+
+  q.prompt([
+      {
+        name: "platform",
+        type: "input",
+        message: "What is platform's subdomain?"
+      },
+      {
+        name: "machine",
+        type: "input",
+        message: "What is machine's subdomain?"
+      },
+      {
+        name: "chaotic",
+        type: "input",
+        message: "What is chaotic's subdomain?"
+      },
+      {
+        name: "mercy",
+        type: "input",
+        message: "What is mercy's subdomain?"
+      }
+    ])
+    .then(function(answer) {
+      let dbParms = {}
+      let a
+      dbParms.envState = true
+      a = answer.platform
+      dbParm.platform = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/platform'
+      a = answer.chaotic
+      dbParm.chaotic = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/platform'
+      a = answer.machine
+      dbParm.machine = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/platform'
+      a = answer.mercy
+      dbParm.mercy = 'mongodb://machina:Awes0me@' + a + '.mlab.com:' + a.substring(3,5) + '/platform'       
+      require('../db/seedTestDb')(dbParms)
+    });
+}
+
 
   let dbParms = {}
   dbParms.envState = false
