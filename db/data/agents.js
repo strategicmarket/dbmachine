@@ -186,7 +186,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'i am here to help',
   priority: '1',
@@ -199,7 +199,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Lets sing',
   priority: '1',
@@ -490,7 +490,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Lets sing more',
   priority: '1',
@@ -503,7 +503,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'support for you',
   priority: '1',
@@ -516,7 +516,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'here is the sermon',
   priority: '1',
@@ -529,7 +529,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'I pray for you',
   priority: '1',
@@ -542,7 +542,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Here is when we meet',
   priority: '1',
@@ -555,7 +555,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'This is what is happening',
   priority: '1',
@@ -568,7 +568,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Our community groups provide fellowship',
   priority: '1',
@@ -581,7 +581,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Here is a weather report',
   priority: '1',
@@ -594,7 +594,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'This is where we meet',
   priority: '1',
@@ -607,7 +607,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'This is our mission',
   priority: '1',
@@ -620,7 +620,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'This is what we believe',
   priority: '1',
@@ -633,7 +633,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging//'
   }],
   greeting: 'This is what we have for children',
   priority: '1',
@@ -646,7 +646,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'This is what we have for students',
   priority: '1',
@@ -659,7 +659,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging//'
   }],
   greeting: 'Our college ministry is great',
   priority: '1',
@@ -672,7 +672,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'How to give',
   priority: '1',
@@ -685,7 +685,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Our membership program',
   priority: '1',
@@ -698,7 +698,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'How we server the community',
   priority: '1',
@@ -711,7 +711,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Lets worship',
   priority: '1',
@@ -724,7 +724,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'How do I get started',
   priority: '1',
@@ -737,7 +737,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Need info on starting point',
   priority: '1',
@@ -750,7 +750,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'How do I find starting point',
   priority: '1',
@@ -763,7 +763,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'When is starting point',
   priority: '1',
@@ -776,7 +776,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Is there child care at starting point',
   priority: '1',
@@ -789,7 +789,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'I am not able to attend',
   priority: '1',
@@ -802,7 +802,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'Member night registration',
   priority: '1',
@@ -815,7 +815,7 @@ const objStore =  [
   skills: [{
     skillname:  'echo',
     skilltype: 'api',
-    skillsource: 'https://3e4j88h1w5.execute-api.us-east-1.amazonaws.com/staging/'
+    skillsource: 'https://2mh5nn4fbj.execute-api.us-east-1.amazonaws.com/staging/'
   }],
   greeting: 'I need child care for member night',
   priority: '1',
