@@ -112,8 +112,7 @@ function genCloud() {
         message: "What is mercy's subdomain?"
       }
     ])
-    .then(function(answer) {
-      console.log(answer)
+    .then(function(answer) {    
       let dbParms = {}
       let a
       dbParms.envState = true

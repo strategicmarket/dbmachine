@@ -91,9 +91,6 @@ const step1 = (config) => {
     } else {
       dbURI = config.uri + config.db
     }
-    console.log(">>>>>DEBUG")
-    console.log(dbURI)
-    console.log(testClients)
 
       mongoose.connect(dbURI)
       let dbc = mongoose.connection
