@@ -10,7 +10,7 @@
   "scripts": {
     "machine": "node ./server.js"
   },
-  "author": "xio",
+  "author": "Strategic Machines",
   "license": "MIT",
   "homepage": "http://www.xiollc.com",
   "bugs": {},
