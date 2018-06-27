@@ -16,7 +16,7 @@ In order to successfully navigate the test environment for Strategic Machines, i
 
 1. The platform owner provides the db location for the collection of client documents
 
-A client document is the profile of a paying customer. A paying customer is the owner of a network that had been deployed through the platform.
+A client document holds the profile of a paying customer. A paying customer is the owner of a network that had been deployed through the Strategic Machine platform.
 
 The [platform configuration file](./config_example/platform.json) is an example of the configuration data that needs to be provided to dbmachine in order to generate the test client documents and record them in an accessible database. This configuration file must match exactly the config file that is used by the web, messaging and analytic platforms when operating in their respective test environments. This file provide the uri for the location of the test database which holds all client documents.
 
