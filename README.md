@@ -22,6 +22,10 @@ The [platform configuration file](./config_example/platform.json) is an example 
 
 Note that in platform.json the uri, username and password must be supplied for MLAB deployed database. A uri is needed for a localhost deployed mongo database.
 
+Update platform.json with the required uri ---
+> The object with isLive=false serves as the config for local mongodb ... no additional updates required
+> the object with isLive=true serves as the config for the cloud mongodb ... update this config file with required uri, userid and password from your MLAB deployed database 
+
 2. Each client document contains the uri of their database which holds collections pertinent to the operation of their network.
 
 3. A client's database will hold documents related to members who have subscribed to their network, virtual agents (bots) that have been activated to operate on their network, configuration information and messages that have been sent.
