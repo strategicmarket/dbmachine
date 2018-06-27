@@ -18,9 +18,9 @@ In order to successfully navigate the test environment for Strategic Machines, i
 
 A client document is the profile of a paying customer. A paying customer is the owner of a network that had been deployed through the platform.
 
-The [platform configuration file](./config_example/platform.json) is an example of the configuration data that needs to be provided to the test data generator. This configuration file must match exactly the config file for web, messaging and analytic platforms. This file provide the uri for the location of the database which holds all client documents.
+The [platform configuration file](./config_example/platform.json) is an example of the configuration data that needs to be provided to dbmachine in order to generate the test client documents and record them in an accessible database. This configuration file must match exactly the config file that is used by the web, messaging and analytic platforms when operating in their respective test environments. This file provide the uri for the location of the test database which holds all client documents.
 
-Note that in platform.json the uri, username and password must be supplied for MLAB deployed database. A uri is needed for a localhost deployed mongo database.
+Note that in platform.json the uri, username and password must be supplied for MLAB deployed database. Only a uri is needed for a localhost deployed mongo database.
 
 Update platform.json with the required uri ---
 > The object with isLive=false serves as the config for local mongodb ... no additional updates required
